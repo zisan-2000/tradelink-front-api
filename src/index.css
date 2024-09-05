@@ -1,0 +1,25 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.expandItems {
+  @apply block border-gray-500 px-4 py-2 text-gray-500 hover:text-gray-800 md:m-1 md:w-48 md:border-2 md:bg-white;
+}
+
+/* .themeColor {
+  @apply bg-[#c00000];
+} */
+
+/* .themeColor {
+  @apply bg-gray-800;
+} */
+
+.Pagebg {
+  @apply bg-white;
+}
+
+.prev-next {
+  @apply bg-red-500 bg-opacity-50 p-2 text-white hover:bg-opacity-100;
+}
